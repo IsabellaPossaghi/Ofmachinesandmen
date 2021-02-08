@@ -185,7 +185,7 @@ a:focus {
 .content {
 	display: grid;
 	width: 100vw;
-	height: 80vh;
+	height: 75vh;
 	position: relative;
 	justify-content: center;
 	align-items: center;
@@ -207,7 +207,7 @@ a:focus {
 
 .content--nav {
 	height: auto;
-	padding: 30vh 0 50vh;
+	padding: 0vh 0 0vh;
 	align-content: center;
 	grid-template-columns: repeat(10,10%);
 	grid-template-rows: repeat(6,min-content);
@@ -233,7 +233,6 @@ a:focus {
 
 .content__img-1:not(.content__img--tiny) {
 	height: 30%;
-  margin-top: 25%;
 
 	border-radius: 0.75rem;
 	grid-area: 1 / 1 / 2 / 2;
@@ -327,10 +326,9 @@ a:focus {
 .content__text,
 .content__link {
 	margin: 0;
-	line-height: 1;
+	line-height: 2;
 	position: relative;
-	font-size: var(--font-size-title);
-	font-size: clamp(var(--font-size-title-min),var(--font-size-title),var(--font-size-title-max));
+	font-size: 80px;
 	color: var(--color-title);
 	font-family: var(--font-title);
 	font-weight: var(--font-weight-title);
@@ -354,18 +352,32 @@ a:focus {
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@100&display=swap');
 
-.content__text-2,
-.content__link-1 {
+.content__text-2 {
 	margin: 0;
 	line-height: 1;
-	position: relative;
+	position:  relative;
 	font-size: 20px;
 	color: #fff;
 	font-family: 'Inconsolata', monospace;
 	font-weight: 100;
-	margin-top: 100px;
+	top: 350px;
+	z-index: 1000;
 
 }
+
+
+.content__link-1 {
+	margin: 0;
+	line-height: 1;
+	position:  relative;
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 100;
+z-index: 1000;
+
+}
+
 
 .content__text-1:hover{
 	color: #8708da;
@@ -382,7 +394,6 @@ a:focus {
 
 .content__text {
 	grid-area: 1 / 1 / 2 / 2;
-	margin-top: 50%;
 }
 
 .content__text-1 {

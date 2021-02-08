@@ -9,6 +9,11 @@ $('#m01').on('click', function () {
   board.position('rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR')
 })
 
+var delay=1000 * 16;//1*6 seconds
+setTimeout(function(){
+  //window.scrollTo(500, 0);//scrolls to specific location
+  location.hash = "#c2"; //scrolls to element with given id
+},delay);
 
 
 //move 02
