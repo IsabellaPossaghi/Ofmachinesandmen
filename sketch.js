@@ -30,3 +30,15 @@ var board3 = Chessboard('myBoard3', config3)
 $('#m03').on('click', function () {
   board3.position('rnbqkbnr/pp2pppp/2p5/8/3Pp3/2N5/PPP2PPP/R1BQKBNR')
 })
+
+
+//move 04
+var config4 = {
+  position: 'rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR'
+}
+var board4 = Chessboard('myBoard4', config4)
+
+
+$('#m04').on('click', function () {
+  board4.position('r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR')
+})
