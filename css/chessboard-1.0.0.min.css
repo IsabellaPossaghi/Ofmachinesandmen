@@ -4,7 +4,7 @@
 }
 
 .board-b72b1 {
-  border: 0px solid #242424;
+  border: 0px solid #f0f0f0;
   box-sizing: content-box
 }
 
@@ -20,13 +20,13 @@
 }
 
 .white-1e1d7 {
-  background-color: #242424;
-  color: #F6F7F7
+  background-color: #f0f0f0;
+  color: #000
 }
 
 .black-3c85d {
   background-color: #F6F7F7 ;
-  color: #242424
+  color: #000
 }
 
 .highlight1-32417, .highlight2-9c5d2 {

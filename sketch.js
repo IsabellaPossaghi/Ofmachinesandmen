@@ -9,13 +9,6 @@ $('#m01').on('click', function () {
   board.position('rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR')
 })
 
-var delay=1000 * 16;//1*6 seconds
-setTimeout(function(){
-  //window.scrollTo(500, 0);//scrolls to specific location
-  location.hash = "#c2"; //scrolls to element with given id
-},delay);
-
-
 //move 02
 var config2 = {
   position: 'rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR'
@@ -25,4 +18,15 @@ var board2 = Chessboard('myBoard2', config2)
 
 $('#m02').on('click', function () {
   board2.position('rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR')
+})
+
+//move 03
+var config3 = {
+  position: 'rnbqkbnr/pp2pppp/2p5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR'
+}
+var board3 = Chessboard('myBoard3', config3)
+
+
+$('#m03').on('click', function () {
+  board3.position('rnbqkbnr/pp2pppp/2p5/8/3Pp3/2N5/PPP2PPP/R1BQKBNR')
 })
