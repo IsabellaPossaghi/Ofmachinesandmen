@@ -4,9 +4,11 @@
 }
 
 .board-b72b1 {
-  border: 0px solid #f0f0f0;
-  box-sizing: content-box
+  border: 0px solid #fff;
+  box-sizing: content-box;
+   border-radius: 20px;
 }
+
 
 .square-55d63 {
   float: left;
@@ -16,16 +18,19 @@
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none
+  user-select: none;
+  border-radius: 5px;
 }
 
 .white-1e1d7 {
-  background-color: #f0f0f0;
+  background-color: transparent;
+  border: 1px solid #fff;
   color: #000
 }
 
 .black-3c85d {
-  background-color: #F6F7F7 ;
+  background-color: transparent;
+    border: 1px solid #fff;
   color: #000
 }
 

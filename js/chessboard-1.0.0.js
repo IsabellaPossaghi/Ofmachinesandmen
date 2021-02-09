@@ -1624,6 +1624,8 @@
 
       var piece = $(this).attr('data-piece')
 
+      // piece.style.zIndex = "2000";
+
       beginDraggingPiece('spare', piece, evt.pageX, evt.pageY)
     }
 
