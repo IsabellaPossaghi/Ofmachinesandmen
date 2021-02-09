@@ -328,7 +328,7 @@ a:focus {
 	margin: 0;
 	line-height: 2;
 	position: relative;
-	font-size: 80px;
+	font-size: 100px;
 	color: var(--color-title);
 	font-family: var(--font-title);
 	font-weight: var(--font-weight-title);
