@@ -390,6 +390,20 @@ left: -1%;
 	margin-left: 41.5%;
 }
 
+.content__text-4 {
+  margin: 0;
+  line-height: 2;
+  position: relative;
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 100;
+  top: -250px;
+  z-index: 1000;
+	padding: 10%;
+	text-align: center;
+}
+
 .content__link-1 {
   margin: 0;
   line-height: 1;
